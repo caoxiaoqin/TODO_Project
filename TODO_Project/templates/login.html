@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+    <form action="" ></form>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="username" class="name_input" placeholder="请输入用户名">
+        <div class="user_error"></div>
+        <input type="password" name="pwd" class="pass_input" placeholder="请输入密码">
+        <div class="pwd_error"></div>
+        <div class="more_input clearfix">
+            <input type="checkbox" name="">
+            <label>记住用户名</label>
+            <a href="#">忘记密码</a>
+            <br>
+        </div>
+        <input type="submit" name="" value="登录" class="input_submit">
+
+    </form>
+
+</body>
+</html>
